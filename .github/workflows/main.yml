@@ -24,7 +24,7 @@ on:
 jobs:
   build_project:
     runs-on: ubuntu-latest
-    if: (github.event_name == 'push' || github.event_name == 'pull_request') && github.ref == 'refs/heads/develop'
+    if: (github.event_name == 'push' || github.event_name == 'pull_request') && github.ref == 'refs/heads/main'
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
