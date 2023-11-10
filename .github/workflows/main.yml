@@ -1,4 +1,4 @@
-name: s3bucket-webhosting
+name: s3bucket-webhosting1
 
 on:
   push:
